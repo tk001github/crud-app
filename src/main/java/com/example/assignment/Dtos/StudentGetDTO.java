@@ -1,15 +1,11 @@
-package com.example.assignment.Models;
+package com.example.assignment.Dtos;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.lang.NonNull;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
-public class Student {
-    @Id @Getter @Setter
+public class StudentGetDTO {
+    @Getter
+    @Setter
     private Integer rollNo;
     @Getter @Setter
     private String name;
@@ -17,4 +13,5 @@ public class Student {
     private Integer std;
     @Getter @Setter
     private Integer age;
+
 }

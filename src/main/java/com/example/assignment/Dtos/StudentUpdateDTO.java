@@ -6,11 +6,12 @@ import lombok.Setter;
 
 public class StudentUpdateDTO {
     @Getter @Setter
-    private Integer rollNo;
+    private String name = null;
     @Getter @Setter
-    private String name;
+    private Integer std = null;
     @Getter @Setter
-    private Integer std;
-    @Getter @Setter
-    private String age;
+    private Integer age = null;
+
+    public StudentUpdateDTO(){
+    }
 }

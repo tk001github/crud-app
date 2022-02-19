@@ -11,5 +11,8 @@ public class StudentCreateDTO {
     @Getter @Setter
     private Integer std;
     @Getter @Setter
-    private String age;
+    private Integer age;
+
+    public StudentCreateDTO(){
+    }
 }
